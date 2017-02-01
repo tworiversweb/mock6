@@ -352,12 +352,19 @@ h3,
     color: #272d25;
 }
 
+/*
 .building {
     padding: 20px;
     background-image: url(../img/gus.jpg);
     background-size: cover;
     min-height: 400px;
     margin-bottom: 30px;
+}
+*/
+
+.links {
+    list-style-position: inside;
+    padding-left:0;
 }
 
 footer {
