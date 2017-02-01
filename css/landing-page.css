@@ -174,8 +174,7 @@ a, a:visited {
 }
 
 .prac {
-    border-radius: 10px;
-    border-bottom-color: white;
+text-align: justify;
 }
 
 .prac-grid {
