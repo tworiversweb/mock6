@@ -417,16 +417,29 @@ p.copyright {
 }
 
 .post-title {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .post-preview a {
     text-decoration: none;
 }
 
+.post-preview {
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 0px;
+}
+
+.headshot-small {
+    text-align: right;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-right: 0px;
+}
+
 .post-meta {
     font-style: italic;
-    margin-bottom: 30px;
+    font-size: 14px;
 }
 
 .entrance {
