@@ -440,3 +440,11 @@ p.copyright {
 .westentrance {
     max-height: 400px;
 }
+
+
+.padded-table td, .padded-table th {
+    padding: 10px;
+}
+.text-bold {
+  font-weight:bold;
+}
