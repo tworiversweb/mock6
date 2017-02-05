@@ -465,6 +465,10 @@ p.copyright {
   font-weight:bold;
 }
 
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid #272d25;
+}
+
 /* These are for footnotes */
 /* http://hiphoff.com/creating-hover-over-footnotes-with-bootstrap/#return */
 body {
