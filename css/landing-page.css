@@ -417,16 +417,29 @@ p.copyright {
 }
 
 .post-title {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .post-preview a {
     text-decoration: none;
 }
 
+.post-preview {
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 0px;
+}
+
+.headshot-small {
+    text-align: right;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-right: 0px;
+}
+
 .post-meta {
     font-style: italic;
-    margin-bottom: 30px;
+    font-size: 14px;
 }
 
 .entrance {
@@ -450,6 +463,10 @@ p.copyright {
 }
 .text-bold {
   font-weight:bold;
+}
+
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid #272d25;
 }
 
 /* These are for footnotes */
