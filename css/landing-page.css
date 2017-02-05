@@ -355,6 +355,14 @@ h3,
     padding-top: 30px;
 }
 
+.content-section-e {
+    color: #f8f8f8;
+    background: url(../img/Z&J%204.JPG) no-repeat center center;
+    opacity: 80%;
+    background-size: cover;
+    padding: 200px;
+}
+
 .well3 {
     background-color: #acad94;
     background-size: cover;
@@ -427,14 +435,14 @@ p.copyright {
 .post-preview {
     text-decoration: none;
     font-size: 30px;
-    padding-left: 0px;
+    padding-left: 10px;
 }
 
 .headshot-small {
     text-align: right;
     vertical-align: middle;
     padding-top: 5px;
-    padding-right: 0px;
+    padding-right: 10px;
 }
 
 .post-meta {
@@ -454,8 +462,6 @@ p.copyright {
     max-height: 400px;
 }
 
-
-/* ******************************* */
 /* Jim's additions */
 
 .padded-table td, .padded-table th {
