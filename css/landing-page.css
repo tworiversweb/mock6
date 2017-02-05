@@ -470,7 +470,7 @@ p.copyright {
 }
 
 /* These are for footnotes */
-/* http://hiphoff.com/creating-hover-over-footnotes-with-bootstrap/#return */
+/* http://hiphoff.com/creating-hover-over-footnotes-with-bootstrap */
 body {
     counter-reset: footnotecounter;
 }
@@ -484,6 +484,10 @@ span.footnote:before {
 
 span.footnote {
     color: #333;
+    font-size: 80%;
+}
+h.plead {
+    font-weight:bold;
 }
 
 /* end */
