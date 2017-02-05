@@ -19,7 +19,7 @@ p {
     letter-spacing: .5px;
 }
 
-b{
+b {
     font-weight: 900;
     color: auto;
 }
@@ -440,3 +440,33 @@ p.copyright {
 .westentrance {
     max-height: 400px;
 }
+
+
+/* ******************************* */
+/* Jim's additions */
+
+.padded-table td, .padded-table th {
+    padding: 10px;
+}
+.text-bold {
+  font-weight:bold;
+}
+
+/* These are for footnotes */
+/* http://hiphoff.com/creating-hover-over-footnotes-with-bootstrap/#return */
+body {
+    counter-reset: footnotecounter;
+}
+
+span.footnote:before {
+  counter-increment: footnotecounter;
+  content: counter(footnotecounter);
+  position: relative;
+  top: -0.4em;
+}
+
+span.footnote {
+    color: #333;
+}
+
+/* end */
