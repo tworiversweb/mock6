@@ -158,7 +158,9 @@ a, a:visited {
     background-color:#272d25;
     opacity: 80%;
     background-size:cover;
-    padding: 30px 0;
+    padding: 30px;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 .about-lead {
@@ -267,9 +269,16 @@ h3,
 
 .content-section-e {
     color: #f8f8f8;
-    background: url(../img/Z&J%204.JPG) no-repeat center top scroll;
+    background: url(../img/ZJ4.JPG) no-repeat center top scroll;
     background-size: 100% auto;
-    padding-bottom: 30%;
+    padding-bottom: 25%;
+}
+
+.try {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80%;
 }
 
 .well3 {
