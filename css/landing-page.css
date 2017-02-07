@@ -19,9 +19,11 @@ p {
     letter-spacing: .5px;
 }
 
-b {
-    font-weight: 900;
+h4 {
+    font-weight: bold;
     color: auto;
+    font-size: 16px;
+    margin: 0px;
 }
 
 hr {
@@ -91,12 +93,6 @@ a, a:visited {
 	border: none;
     margin-bottom: 0px;
 }
-
-/*
-.well .h4 {
-    font-size: 200%;
-}
-*/
 
 .well-lg {
     padding-top: 24px;
@@ -230,6 +226,7 @@ h3,
 .social {
   max-height: 30px;
 }
+
 .section-heading-spacer {
     float: left;
     width: 200px;
@@ -396,24 +393,25 @@ p.copyright {
 
 /* These are for footnotes */
 /* http://hiphoff.com/creating-hover-over-footnotes-with-bootstrap */
-    body {
-        counter-reset: footnotecounter;
-    }
+body {
+    counter-reset: footnotecounter;
+}
 
-    span.footnote:before {
-      counter-increment: footnotecounter;
-      content: counter(footnotecounter);
-      position: relative;
+span.footnote:before {
+    counter-increment: footnotecounter;
+    content: counter(footnotecounter);
+     position: relative;
       top: -0.4em;
-    }
+}
 
-    span.footnote {
-        color: #333;
+span.footnote {
+     color: #333;
         font-size: 80%;
-    }
-    h.plead {
-        font-weight:bold;
-    }
+}
+
+.plead {
+    font-weight:bold;
+}
 /* end */
 
 /*MEDIA QUERIES*/
