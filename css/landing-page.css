@@ -541,5 +541,7 @@ span.footnote {
     }
 */
 }
-
-
+/* Jim's addition 2/7/2017 */
+li blockquote.blog {
+  font-size:inherit;
+}
