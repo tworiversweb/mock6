@@ -19,9 +19,11 @@ p {
     letter-spacing: .5px;
 }
 
-b {
-    font-weight: 900;
+h4 {
+    font-weight: bold;
     color: auto;
+    font-size: 16px;
+    margin: 0px;
 }
 
 hr {
@@ -91,12 +93,6 @@ a, a:visited {
 	border: none;
     margin-bottom: 0px;
 }
-
-/*
-.well .h4 {
-    font-size: 200%;
-}
-*/
 
 .well-lg {
     padding-top: 24px;
@@ -230,6 +226,7 @@ h3,
 .social {
   max-height: 30px;
 }
+
 .section-heading-spacer {
     float: left;
     width: 200px;
@@ -284,7 +281,7 @@ h3,
 .footer-img {
     margin-right: auto;
     margin-left: auto;
-    max-width: 70%;
+    max-width: 60%;
 }
 
 .well3 {
@@ -377,6 +374,10 @@ p.copyright {
     max-height: 400px;
 }
 
+.jim-img {
+    max-width: 75%;
+}
+
 /* Jim's additions */
 
 .padded-table td, .padded-table th {
@@ -397,19 +398,21 @@ body {
 }
 
 span.footnote:before {
-  counter-increment: footnotecounter;
-  content: counter(footnotecounter);
-  position: relative;
-  top: -0.4em;
+    counter-increment: footnotecounter;
+    content: counter(footnotecounter);
+     position: relative;
+      top: -0.4em;
 }
 
 span.footnote {
-    color: #333;
-    font-size: 80%;
+     color: #333;
+        font-size: 80%;
 }
-h.plead {
+
+.plead {
     font-weight:bold;
 }
+/* end */
 
 /*MEDIA QUERIES*/
 
@@ -534,4 +537,3 @@ h.plead {
 }
 
 
-/* end */
