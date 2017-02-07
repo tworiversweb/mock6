@@ -397,6 +397,13 @@ p.copyright {
     border: 1px solid #272d25;
 }
 
+/* Jim's addition 2/7/2017 */
+blockquote {
+    font-size:inherit;
+    border: none;
+}
+
+
 /* These are for footnotes */
 /* http://hiphoff.com/creating-hover-over-footnotes-with-bootstrap */
 body {
@@ -541,7 +548,4 @@ span.footnote {
     }
 */
 }
-/* Jim's addition 2/7/2017 */
-li blockquote.blog {
-  font-size:inherit;
-}
+
