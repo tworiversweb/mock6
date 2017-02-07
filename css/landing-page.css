@@ -269,16 +269,22 @@ h3,
 
 .content-section-e {
     color: #f8f8f8;
-    background: url(../img/ZJ4.JPG) no-repeat center top scroll;
-    background-size: 100% auto;
-    padding-bottom: 25%;
+    background-color:#272d25;
+    opacity: 80%;
+    background-size:cover;
+    padding: 30px;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
-.try {
-    float: none;
+.footer-img-container {
+   text-align: center;
+}
+
+.footer-img {
     margin-right: auto;
     margin-left: auto;
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .well3 {
@@ -287,16 +293,6 @@ h3,
     margin: 50px;
     color: #272d25;
 }
-
-/*
-.building {
-    padding: 20px;
-    background-image: url(../img/gus.jpg);
-    background-size: cover;
-    min-height: 400px;
-    margin-bottom: 30px;
-}
-*/
 
 .links {
     list-style-position: inside;
