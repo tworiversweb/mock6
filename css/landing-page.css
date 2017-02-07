@@ -284,7 +284,7 @@ h3,
 .footer-img {
     margin-right: auto;
     margin-left: auto;
-    max-width: 70%;
+    max-width: 60%;
 }
 
 .well3 {
@@ -377,6 +377,10 @@ p.copyright {
     max-height: 400px;
 }
 
+.jim-img {
+    max-width: 75%;
+}
+
 /* Jim's additions */
 
 .padded-table td, .padded-table th {
@@ -392,24 +396,25 @@ p.copyright {
 
 /* These are for footnotes */
 /* http://hiphoff.com/creating-hover-over-footnotes-with-bootstrap */
-body {
-    counter-reset: footnotecounter;
-}
+    body {
+        counter-reset: footnotecounter;
+    }
 
-span.footnote:before {
-  counter-increment: footnotecounter;
-  content: counter(footnotecounter);
-  position: relative;
-  top: -0.4em;
-}
+    span.footnote:before {
+      counter-increment: footnotecounter;
+      content: counter(footnotecounter);
+      position: relative;
+      top: -0.4em;
+    }
 
-span.footnote {
-    color: #333;
-    font-size: 80%;
-}
-h.plead {
-    font-weight:bold;
-}
+    span.footnote {
+        color: #333;
+        font-size: 80%;
+    }
+    h.plead {
+        font-weight:bold;
+    }
+/* end */
 
 /*MEDIA QUERIES*/
 
@@ -534,4 +539,3 @@ h.plead {
 }
 
 
-/* end */
